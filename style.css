@@ -1,0 +1,68 @@
+body {
+    background: color white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 900px;
+    margin: auto;
+
+}
+
+.livia_img{
+    border: 1px solid #000;
+    border-radius: 50%;
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+}
+
+#title, .subtitle, .post_title {
+    color:#35122E;
+}
+
+#title{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+a{
+    text-decoration: underline;
+    color: #6b256f;
+
+}
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    margin:0;
+    margin-bottom: 15px;
+}
+
+.post{
+    background-color: #93b4db;
+    padding: 15px;
+    border: 1px solid #000;
+    margin-bottom:15px;
+    border-radius: 1%;
+}
+
+.post_content {
+    margin:0;
+    margin-bottom: 15px;
+    text-align: justify;
+
+}
+
+.post_img{
+    margin-bottom: 15px;
+    width: 100%;
+
+}
+
+.contact_list{
+    list-style-type:circle;
+    padding-left: 15px;
+}
+
+.contact_list li a {
+    color: #194b32;
+    text-decoration: none;
+}
